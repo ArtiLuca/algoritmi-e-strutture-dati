@@ -29,7 +29,6 @@ Esercizi vari su:
 | Esercizio 14 — Costruzione di ABR di altezza minima | [Completato](bst.md) |
 | Esercizio 15 — Inserimento in ABR con campo `even` | [Completato](esercizio_15.md) |
 | Esercizio 16 — Stampa ordinata di un intervallo di chiavi | Da completare |
-| Domanda 39 — Altezza nera | Da completare | [Completato](domanda_rb_tree.md) |
 | Esercizio 17 — Verifica di Red-Black tree | [Completato](domanda_rb_tree.md) |
 | Esercizio 1 — Distanza minima in un albero binario di ricerca | [Completato](mdist.md) |
 | Esercizio 1 — ABR arricchito con numero di foglie | [Completato](leaves.md) |
@@ -131,12 +130,6 @@ Scrivere una funzione `range(T, k1, k2)` che dato un albero binario di ricerca `
 
 ---
 
-### **Domanda 39**
-
-Scrivere una funzione `blackHeight(T)` che dato in input un albero binario di ricerca `T`, i cui nodi $x$ hanno, oltre ai campi `x.key`, `x.left` e `x.right`, hanno un campo `x.col` che può essere B (per "black") oppure R (per "red"), verifica se per ogni nodo, il cammino da quel nodo a qualsiasi foglia contiene lo stesso numero di nodi neri (altezza nera). In caso negativo, restituisce -1, altrimenti restituisce l'altezza nera della radice.
-
----
-
 ### **Esercizio 17**
 
 Scrivere una funzione `RBTree(T)` che dato in input un albero binario di ricerca `T`, i cui nodi $x$, oltre ai campi `x.key`, `x.left` e `x.right`, hanno un campo `x.col` che può essere B (per "black") oppure R (per "red"), verifica se questo è un Red-Black tree. In caso negativo, restituisce -1, altrimenti restituisce l'altezza nera della radice. Valutarne la complessità.
@@ -184,35 +177,3 @@ $$
 Si supponga che dall'albero così ottenuto si cancelli il nodo con chiave $5$ e si indichi l'albero ottenuto.
 
 Sia per gli inserimenti che per la cancellazione, motivare sinteticamente il risultato ottenuto.
-
----
-
-### Domanda C — 5 punti — `diff(T)`
-
-Scrivere una funzione `diff(T)` che, dato in input un albero binario di ricerca $T$, determina la massima differenza di lunghezza tra due cammini che vanno dalla radice ad un sottoalbero vuoto.
-
-Ad esempio:
-
-- sull'albero ottenuto inserendo $1,2,3$ produce $2$;
-- su quello ottenuto inserendo $2,1,3$ produce $0$.
-
-Valutarne la complessità.
-
----
-
-### Esercizio 1 — 7 punti — Albero k-bounded
-
-Sia $T$ un albero binario i cui nodi $x$ hanno i campi:
-
-- `x.left`
-- `x.right`
-- `x.key`
-
-L'albero si dice **k-bounded**, per un certo valore $k$, se per ogni nodo $x$ la somma delle chiavi lungo ciascun cammino da $x$ ad una foglia è minore o uguale a $k$.
-
-Scrivere una funzione `Bound(T,k)` che, dato in input un albero $T$ e un valore $k$, verifica se $T$ è k-bounded e ritorna un corrispondente valore booleano.
-
-Valutarne la complessità.
-
-La procedura ricorsiva deve restituire entrambe le seguenti informazioni: validità del sottoalbero, e altezza nera del sottoalbero.
-Valutare la complessità.
