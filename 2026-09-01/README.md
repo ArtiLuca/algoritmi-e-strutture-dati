@@ -1,14 +1,12 @@
 # Algoritmi e Strutture Dati — Appello del 1 settembre 2026
 
-Questa cartella contiene le mie soluzioni personali all'appello del  
-**1 setembre 2026** del corso di Algoritmi e Strutture Dati.
+Questa cartella contiene i testi dell'appello del  
+**1 settembre 2026** del corso di Algoritmi e Strutture Dati.
 
 ## Fonte
 
 Questo appello non risulta disponibile nella pagina ufficiale degli appelli passati.
-
-Le soluzioni presenti in questa cartella sono personali e non costituiscono
-materiale ufficiale del corso.
+Non sono presenti le mie soluzioni per questo appello.
 
 ## Stato delle soluzioni
 
