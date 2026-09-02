@@ -32,9 +32,8 @@ Esercizi vari su:
 | Esercizio 35 — Struttura dati (Half min, ammortizzata) | Da completare |
 | Esercizio 36 — OrderedStack (ammortizzata) | Da completare |
 | Esercizio 37 — Struttura dati (Half max, ammortizzata) | Da completare |
-| Esercizio — Assegnamento frequenze Huffman (9 punti) | Da completare |
+| Esercizio — Assegnamento frequenze Huffman (9 punti) | [Completato](domanda_huffman.md) |
 | Esercizio — Matching sulla linea (Greedy) | Da completare |
-| Domanda B - Domanda Teoria Huffman | [Completato](domanda_huffman.md) |
 | Domanda B - Domanda Doppio Hashing con m=11 | [Completato](domanda_doppio_hashing.md) |
 | Esercizi Huffman | [Completato](esercizi_huffman.md) |
 | Domanda B - Algoritmo di Huffman | [Da Completare](domanda_huffman_1.md) |
@@ -290,17 +289,6 @@ ii. Dimostrare, mediante un'analisi ammortizzata della complessità, che una seq
 
 ---
 
-### **Esercizio — 9 punti**
-
-Si consideri un file definito sull'alfabeto $\{a,b,c\}$ con frequenze $f(a),\ f(b),\ f(c)$.
-Per ognuna delle seguenti codifiche determinare, se esiste, un opportuno assegnamento di valori alle $3$ frequenze per cui l'algoritmo di Huffman restituisca tale codifica, oppure argomentare che tale codifica non è mai ottenibile.
-
-1. $e(a)=0,\qquad e(b)=10,\qquad e(c)=11$
-2. $e(a)=1,\qquad e(b)=0,\qquad e(c)=11$
-3. $e(a)=10,\qquad e(b)=01,\qquad e(c)=00$
-
----
-
 ### **Esercizio — Matching sulla linea**
 
 Sia $S=\{s_1,s_2,\ldots,s_n\}$ un insieme di punti ordinati sulla linea reale, che rappresentano dei server.
@@ -392,11 +380,13 @@ Successivamente, rispondere alla seguente domanda: perché è utile che $h_2(k)$
 
 ---
 
-### Esercizio — 9 punti
+### Esercizio — Assegnamento frequenze Huffman (9 punti)
 
-Si consideri un file definito sull'alfabeto $\{a, b, c\}$ con frequenze $f(a), f(b), f(c)$.
+Si consideri un file definito sull'alfabeto $\{a,b,c\}$ con frequenze $f(a),\ f(b),\ f(c)$.
 Per ognuna delle seguenti codifiche determinare, se esiste, un opportuno assegnamento di valori alle $3$ frequenze per cui l'algoritmo di Huffman restituisca tale codifica, oppure argomentare che tale codifica non è mai ottenibile.
 
 1. $e(a)=0,\qquad e(b)=10,\qquad e(c)=11$
 2. $e(a)=1,\qquad e(b)=0,\qquad e(c)=11$
 3. $e(a)=10,\qquad e(b)=01,\qquad e(c)=00$
+
+
