@@ -29,14 +29,11 @@ Esercizi vari su:
 | Esercizio 14 — Costruzione di ABR di altezza minima | [Completato](bst.md) |
 | Esercizio 15 — Inserimento in ABR con campo `even` | [Completato](esercizio_15.md) |
 | Esercizio 16 — Stampa ordinata di un intervallo di chiavi | Da completare |
-| Domanda 39 — Altezza nera | Da completare |
-| Esercizio 17 — Verifica di Red-Black tree | Da completare |
+| Domanda 39 — Altezza nera | Da completare | [Completato](domanda_rb_tree.md) |
+| Esercizio 17 — Verifica di Red-Black tree | [Completato](domanda_rb_tree.md) |
 | Esercizio 1 — Distanza minima in un albero binario di ricerca | [Completato](mdist.md) |
 | Esercizio 1 — ABR arricchito con numero di foglie | [Completato](leaves.md) |
 | Domanda B — Albero Binario di Ricerca | [Completato](domanda_teoria_abr.md) |
-| Domanda C — `diff(T)` | Da completare |
-| Esercizio 1 — Albero `k-bounded` | Da completare |
-| Domanda B — Alberi Red-Black | [Completato](domanda_rb_tree.md) |
 
 
 ## Testi degli Esercizi
@@ -216,15 +213,6 @@ L'albero si dice **k-bounded**, per un certo valore $k$, se per ogni nodo $x$ la
 Scrivere una funzione `Bound(T,k)` che, dato in input un albero $T$ e un valore $k$, verifica se $T$ è k-bounded e ritorna un corrispondente valore booleano.
 
 Valutarne la complessità.
-
----
-
-### Domanda B — Alberi Red-Black 
-
-Enunciare le proprietà degli alberi Red-Black.
-Successivamente, spiegare come verificare ricorsivamente se un albero binario di ricerca colorato soddisfa le seguenti proprietà:
-1. nessun nodo rosso ha un figlio rosso;
-2. ogni cammino da un nodo a una foglia nil discendente contiene lo stesso numero di nodi neri.
 
 La procedura ricorsiva deve restituire entrambe le seguenti informazioni: validità del sottoalbero, e altezza nera del sottoalbero.
 Valutare la complessità.
