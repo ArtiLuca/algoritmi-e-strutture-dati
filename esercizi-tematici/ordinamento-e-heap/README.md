@@ -30,7 +30,6 @@ Esercizi vari su:
 | Esercizio SortJoin | [Completato](sort_join.md) |
 | Esercizio 1 — `triplet(A)` | [Completato](triplet.md) |
 | Esercizio 1 — `union(A1,A2,n)` con max-heap | Da completare |
-| Esercizio 1 — Ordinamento in loco (TriSort) | Da completare |
 | Esercizio - Reverse Print Max Heap | [Completato](reverse_print_max_heap.md) |
 
 ---
@@ -174,24 +173,6 @@ possibilmente non in questo ordine, ovvero l'elemento $2$ non è duplicato.
 Valutare la complessità della funzione definita.
 
 Qualora il risultato $A$ potesse contenere duplicati ci sarebbero soluzioni più efficienti?
-
----
-
-### Esercizio 1 — Ordinamento in loco (TriSort)
-
-Realizzare una procedura `TriSort(A)` che dato un array $A[1 \dots n]$ di $n$
-elementi, con valori in $\{0, 1, 2\}$, lo ordina in modo crescente.
-
-L'unica operazione ammessa per modificare l'array è:
-
-$$ 
-A[i] \leftrightarrow A[j] 
-$$
-
-il cui effetto è quello di scambiare gli elementi in posizione $i$ e $j$.
-
-Dare lo pseudocodice e motivarne la correttezza. Valutare la complessità asintotica,
-indicando anche il numero di confronti e di scambi nel caso peggiore.
 
 ---
 
