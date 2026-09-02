@@ -27,12 +27,12 @@ Esercizi vari su:
 | Esercizio 35 — Struttura dati (Half min, ammortizzata) | Da completare |
 | Esercizio 36 — OrderedStack (ammortizzata) | Da completare |
 | Esercizio 37 — Struttura dati (Half max, ammortizzata) | Da completare |
-| Esercizio — Assegnamento frequenze Huffman (9 punti) | [Completato](domanda_huffman.md) |
 | Esercizio — Matching sulla linea (Greedy) | Da completare |
 | Domanda B - Domanda Doppio Hashing con m=11 | [Completato](domanda_doppio_hashing.md) |
 | Esercizi Huffman | [Completato](esercizi_huffman.md) |
 | Domanda B - Algoritmo di Huffman | [Da Completare](domanda_huffman_1.md) |
 | Domanda B - Hashing con doppio hashing | [Completato](double_hashing.md) |
+| Esercizio — Assegnamento frequenze Huffman (9 punti) | [Completato](domanda_huffman.md) |
 
 ---
 
