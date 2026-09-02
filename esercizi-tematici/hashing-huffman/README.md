@@ -13,7 +13,6 @@ Esercizi vari su:
 
 | Esercizio | Stato |
 |---|---|
-| Domanda 31 — Tabella hash (doppio hash, $m=8$) | Da completare |
 | Domanda 32 — Tabella hash (doppio hash, $m=8$) | [Completato](domanda_32.md) |
 | Domanda 33 — Tabella hash (doppio hash, $m=8$) | Da completare |
 | Domanda 34 — Tabella hash (chaining, $m=8$) | [Completato](domanda_34.md) |
@@ -23,10 +22,6 @@ Esercizi vari su:
 | Domanda 40 — Codice di Huffman (7 simboli) | [Completato](domanda_40.md) |
 | Domanda 41 — Codice di Huffman (7 simboli) | Da completare |
 | Domanda 42 — Codice di Huffman (7 simboli) | Da completare |
-| Domanda 43 — Codice di Huffman (7 simboli) | Da completare |
-| Domanda 44 — Codice di Huffman (7 simboli) | Da completare |
-| Domanda 45 — Codice di Huffman (7 simboli) | Da completare |
-| Domanda 46 — Codice di Huffman (7 simboli) | Da completare |
 | Esercizio Huffman Esame A | [Completato](domanda_esame_huffman_A.md) |
 | Esercizio Huffman Esame B | [Completato](domanda_esame_huffman_B.md) |
 | Esercizio 35 — Struttura dati (Half min, ammortizzata) | Da completare |
@@ -42,12 +37,6 @@ Esercizi vari su:
 ---
 
 ## Testi degli Esercizi
-
-### **Domanda 31**
-
-Si consideri una tabella hash di dimensione $m = 8$, e indirizzamento aperto con doppio hash basato sulle funzioni $h_1(k) = k \bmod m$ e $h_2(k) = 1 + (k \bmod (m - 2))$. Si descriva in dettaglio come avviene l'inserimento della sequenza di chiavi: 12, 3, 22, 14, 38.
-
----
 
 ### **Domanda 32**
 
@@ -140,70 +129,6 @@ $$
 & a & b & c & d & e & f & g \\ 
 \hline
 \text{frequenza} & 6 & 21 & 12 & 8 & 3 & 23 & 8
-\end{array}
-$$
-
-Spiegare il processo di costruzione del codice.
-
----
-
-### **Domanda 43**
-
-Indicare il codice prefisso ottenuto utilizzando l’algoritmo di Huffmann per l’alfabeto $\{a, b, c, d, e, f, g\}$, supponendo che ogni simbolo appaia con le seguenti frequenze:
-
-$$
-\begin{array}{c|ccccccc}
-& a & b & c & d & e & f & g \\ 
-\hline
-\text{frequenza} & 37 & 4 & 12 & 6 & 9 & 17 & 8
-\end{array}
-$$
-
-Spiegare il processo di costruzione del codice.
-
----
-
-### **Domanda 44**
-
-Indicare il codice prefisso ottenuto utilizzando l’algoritmo di Huffmann per l’alfabeto $\{a, b, c, d, e, f, g\}$, supponendo che ogni simbolo appaia con le seguenti frequenze:
-
-$$
-\begin{array}{c|ccccccc}
-& a & b & c & d & e & f & g \\ 
-\hline
-\text{frequenza} & 10 & 6 & 2 & 8 & 19 & 31 & 15
-\end{array}
-$$
-
-Spiegare il processo di costruzione del codice.
-
----
-
-### **Domanda 45**
-
-Indicare il codice prefisso ottenuto utilizzando l’algoritmo di Huffmann per l’alfabeto $\{a, b, c, d, e, f, g\}$, supponendo che ogni simbolo appaia con le seguenti frequenze:
-
-$$
-\begin{array}{c|ccccccc}
-& a & b & c & d & e & f & g \\ 
-\hline
-\text{frequenza} & 3 & 8 & 7 & 12 & 6 & 23 & 21
-\end{array}
-$$
-
-Spiegare il processo di costruzione del codice.
-
----
-
-### **Domanda 46**
-
-Indicare il codice prefisso ottenuto utilizzando l’algoritmo di Huffmann per l’alfabeto $\{a, b, c, d, e, f, g\}$, supponendo che ogni simbolo appaia con le seguenti frequenze:
-
-$$
-\begin{array}{c|ccccccc}
-& a & b & c & d & e & f & g \\ 
-\hline
-\text{frequenza} & 2 & 12 & 16 & 8 & 6 & 9 & 3
 \end{array}
 $$
 
