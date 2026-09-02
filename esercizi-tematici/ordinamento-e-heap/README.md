@@ -30,7 +30,7 @@ Esercizi vari su:
 | Esercizio SortJoin | [Completato](sort_join.md) |
 | Esercizio 1 — `triplet(A)` | [Completato](triplet.md) |
 | Esercizio 1 — `union(A1,A2,n)` con max-heap | Da completare |
-| Esercizio 1 — Ordinamento in loco (TriSort) | [Da Completare] |
+| Esercizio 1 — Ordinamento in loco (TriSort) | Da completare |
 | Esercizio - Reverse Print Max Heap | [Completato](reverse_print_max_heap.md) |
 
 ---
