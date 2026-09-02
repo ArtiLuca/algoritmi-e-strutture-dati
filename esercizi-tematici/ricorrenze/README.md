@@ -47,7 +47,7 @@ Esercizi vari su:
 | Domande - Proprieta Notazione Asintotica | [Completato](domanda_proprieta_notazione_asintotica.md) |
 | Esercizi - Albero delle Ricorrenze | [Completato](esercizio_albero_ricorrenze.md) |
 | Esercizi - Ricorrenze Metodo di Sostituzione | [Completato](esercizio_ricorrenze_metodo_sostituzione.md) |
-| Esercizi - Ricorrenze Master Theorem | [Completato](esercizio_ricorrenze_master_theorem) |
+| Esercizi - Ricorrenze Master Theorem | [Completato](esercizio_ricorrenze_master_theorem.md) |
 
 ---
 
